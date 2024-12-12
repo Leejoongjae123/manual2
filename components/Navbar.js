@@ -8,7 +8,7 @@ import Sidebar from "./Sidebar";
 
 const Navbar = ({ children }) => {
   const [selectedLanguage, setSelectedLanguage] = useState("kr");
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   // Function to handle language change
   const handleLanguageChange = (e) => {
