@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Link from "next/link";
 import {
   Divider,
   Input,
@@ -12,8 +11,6 @@ import { useTranslations } from "next-intl";
 function Sidebar({
   isSidebarOpen,
   setIsSidebarOpen,
-  selectedLanguage,
-  setSelectedLanguage,
 }) {
   const [isOpen1, setIsOpen1] = useState(true);
   const [isOpen2, setIsOpen2] = useState(true);

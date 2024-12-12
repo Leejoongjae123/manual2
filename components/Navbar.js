@@ -1,12 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
-import { FiChevronDown } from "react-icons/fi";
-import { CiGlobe } from "react-icons/ci";
 import setLanguageValue from "@/actions/set-language-action";
 import { RxHamburgerMenu } from "react-icons/rx";
-import {Select, SelectSection, SelectItem, Image} from "@nextui-org/react";
+import {Select, SelectItem, Image} from "@nextui-org/react";
 import Sidebar from "./Sidebar";
 
 const Navbar = ({ children }) => {
