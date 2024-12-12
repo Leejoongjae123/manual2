@@ -3,7 +3,7 @@
 import { useState } from "react";
 import setLanguageValue from "@/actions/set-language-action";
 import { RxHamburgerMenu } from "react-icons/rx";
-import {Select, SelectItem, Image} from "@nextui-org/react";
+import { Select, SelectItem, Image } from "@nextui-org/react";
 import Sidebar from "./Sidebar";
 
 const Navbar = ({ children }) => {
@@ -20,17 +20,20 @@ const Navbar = ({ children }) => {
     <div>
       <nav className="white p-4 border-b border-gray-200">
         <div className="mx-auto flex justify-between items-center px-5">
-          <button
-            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-            className="mr-2 lg:block"
-          >
-            <RxHamburgerMenu size={24} />
-          </button>
+          <div className="flex items-center justify-center gap-x-2">
+            <button
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+              className="mr-2 lg:block"
+            >
+              <RxHamburgerMenu size={24} />
+            </button>
+            <div className="flex items-center justify-center">
+              <Image src="/logo/logo.png" alt="logo" fill />
+            </div>
+          </div>
 
           {/* Navbar Links */}
           <div className="flex items-center space-x-6 text-lg">
-
-
             {/* Language Dropdown using select */}
             <div className="relative">
               {/* <select
@@ -43,27 +46,53 @@ const Navbar = ({ children }) => {
                 <option value="ar">Arabic</option>
                 <option value="bn">Bangla</option>
               </select> */}
-              <Select className="w-40" onChange={handleLanguageChange} selectedKeys={[selectedLanguage]}>
-                <SelectItem startContent={<Image src="/country/korea.png" alt="Korean" width={20} height={20} />} value="kr" key="kr">
+              <Select
+                className="w-40"
+                onChange={handleLanguageChange}
+                selectedKeys={[selectedLanguage]}
+              >
+                <SelectItem
+                  startContent={
+                    <Image
+                      src="/country/korea.png"
+                      alt="Korean"
+                      width={20}
+                      height={20}
+                    />
+                  }
+                  value="kr"
+                  key="kr"
+                >
                   Korean
                 </SelectItem>
-                <SelectItem startContent={<Image src="/country/japan.png" alt="Japanese" width={20} height={20} />} value="jp" key="jp">
+                <SelectItem
+                  startContent={
+                    <Image
+                      src="/country/japan.png"
+                      alt="Japanese"
+                      width={20}
+                      height={20}
+                    />
+                  }
+                  value="jp"
+                  key="jp"
+                >
                   Japanese
                 </SelectItem>
-                
               </Select>
-
             </div>
           </div>
         </div>
       </nav>
       <div className="flex">
-        <Sidebar isSidebarOpen={isSidebarOpen} setIsSidebarOpen={setIsSidebarOpen} selectedLanguage={selectedLanguage} setSelectedLanguage={setSelectedLanguage}/>
-        
-        
-        <main className="flex-1">
-          {children}
-        </main>
+        <Sidebar
+          isSidebarOpen={isSidebarOpen}
+          setIsSidebarOpen={setIsSidebarOpen}
+          selectedLanguage={selectedLanguage}
+          setSelectedLanguage={setSelectedLanguage}
+        />
+
+        <main className="flex-1">{children}</main>
       </div>
     </div>
   );
