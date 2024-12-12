@@ -1,11 +1,31 @@
 {
   "HomePage": {
-    "hero_title": "Enhance Your Web App with",
-    "highlighted_text": "Multi-Language Support",
-    "hero_subtitle": "in Next.js",
-    "hero_description": "Simplify internationalization in your Next.js app with seamless multi-language support using next-intl. Reach a global audience and deliver content in multiple languages effortlessly.",
-    "get_started_button": "Get started",
-    "learn_more_button": "Learn more"
+    "hero_title": "반갑습니다",
+    "highlighted_text": "또오세요",
+    "guide_title": "서비스 가이드",
+    "fold_all": "모두 접기",
+    "menu1": "접속 및 설치",
+    "menu1_1": "메신저 접속",
+    "menu1_2": "메신저 확장 프로그램 설치",
+    "menu2": "멤버",
+    "menu2_1": "즐겨찾기",
+    "menu2_2": "조직도",
+    "menu2_3": "내 부서",
+    "menu3": "채팅",
+    "menu3_1": "일반 대화",
+    "menu4": "쪽지",
+    "menu4_1": "받은 쪽지",
+    "menu4_2": "보낸 쪽지",
+    "menu5": "화상회의",
+    "menu5_1": "화상회의 예약",
+    "menu5_2": "화상회의 참여",
+    "menu5_3": "화상회의 참여자 목록",
+    "menu5_4": "화상회의 세부 기능",
+    "menu6": "학사 지원",
+    "menu6_1": "할 일",
+    "menu6_2": "프로젝트",
+    "menu6_3": "일정"   
+    
   },
   "AboutPage": {
     "title": "Make every step user-centric",

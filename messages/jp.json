@@ -1,0 +1,62 @@
+{
+  "HomePage": {
+    "hero_title": "ようこそ",
+    "highlighted_text": "もう一度お越しください",
+    "hero_subtitle": "",
+    "hero_description": "Simplify internationalization in your Next.js app with seamless multi-language support using next-intl. Reach a global audience and deliver content in multiple languages effortlessly.",
+    "get_started_button": "Get started",
+    "learn_more_button": "Learn more",
+    "guide_title": "サービスガイド",
+    "fold_all": "すべて折りたたむ",
+    "menu1": "接続とインストール",
+    "menu1_1": "メッセンジャー接続",
+    "menu1_2": "メッセンジャー拡張機能インストール",
+    "menu2": "メンバー",
+    "menu2_1": "お気に入り",
+    "menu2_2": "組織図",
+    "menu2_3": "私の部門",
+    "menu3": "チャット",
+    "menu3_1": "一般チャット",
+    "menu4": "メッセージ",
+    "menu4_1": "受信メッセージ",
+    "menu4_2": "送信メッセージ",
+    "menu5": "ビデオ会議",
+    "menu5_1": "ビデオ会議予約",
+    "menu5_2": "ビデオ会議参加",
+    "menu5_3": "ビデオ会議参加者リスト",
+    "menu5_4": "ビデオ会議詳細機能",
+    "menu6": "学務支援",
+    "menu6_1": "タスク",
+    "menu6_2": "プロジェクト",
+    "menu6_3": "スケジュール"  
+  },
+  "AboutPage": {
+    "title": "Make every step user-centric",
+    "features": [
+      {
+        "title": "Support",
+        "description": "Our dedicated support team is available 24/7 to assist with any questions or issues, ensuring that you never feel alone."
+      },
+      {
+        "title": "Organise",
+        "description": "Easily manage your projects, tasks, and teams in one place, making collaboration seamless and efficient."
+      },
+      {
+        "title": "Flexibility",
+        "description": "Whether you need to scale your operations or adjust processes, our platform offers the flexibility to grow with your needs."
+      },
+      {
+        "title": "Speed",
+        "description": "With lightning-fast performance and a streamlined workflow, you can accomplish more in less time and stay ahead of the competition."
+      },
+      {
+        "title": "Quality",
+        "description": "Deliver exceptional results with our high-quality standards, ensuring that every project meets the highest level of excellence."
+      },
+      {
+        "title": "Resource",
+        "description": "Access a wealth of resources, including guides, tutorials, and expert insights, to help you maximize your potential and succeed."
+      }
+    ]
+  }
+}

@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { NextUIProvider } from "@nextui-org/react";
 
 export default async function RootLayout({
   children,
@@ -17,10 +18,11 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          {children}
-        </NextIntlClientProvider>
+        <NextUIProvider>
+          <NextIntlClientProvider messages={messages}>
+            <Navbar>{children}</Navbar>
+          </NextIntlClientProvider>
+        </NextUIProvider>
       </body>
     </html>
   );
