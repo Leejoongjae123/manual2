@@ -70,10 +70,10 @@ function Sidebar({
                 <ChevronDownIcon className={`w-4 h-4 transition-transform ${isOpen1 ? 'transform rotate-180' : ''}`} />
                 <span className="text-medium flex-grow ml-2 font-bold">{t("menu1")}</span>
               </button>
-              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen1 ? 'max-h-40 py-2' : 'max-h-0'}`}>
+              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen1 ? 'max-h-40 ' : 'max-h-0'}`}>
                 
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu1_1")}</div>
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu1_2")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu1_1")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu1_2")}</div>
               </div>
             </div>
             <div>
@@ -84,11 +84,11 @@ function Sidebar({
                 <ChevronDownIcon className={`w-4 h-4 transition-transform ${isOpen2 ? 'transform rotate-180' : ''}`} />
                 <span className="text-medium flex-grow ml-2 font-bold">{t("menu2")}</span>
               </button>
-              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen2 ? 'max-h-40 py-2' : 'max-h-0'}`}>
+              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen2 ? 'max-h-40 ' : 'max-h-0'}`}>
                 
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu2_1")}</div>
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu2_2")}</div>
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu2_3")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu2_1")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu2_2")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu2_3")}</div>
               </div>
             </div>
             <div>
@@ -99,9 +99,9 @@ function Sidebar({
                 <ChevronDownIcon className={`w-4 h-4 transition-transform ${isOpen3 ? 'transform rotate-180' : ''}`} />
                 <span className="text-medium flex-grow ml-2 font-bold">{t("menu3")}</span>
               </button>
-              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen3 ? 'max-h-40 py-2' : 'max-h-0'}`}>
+              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen3 ? 'max-h-40 ' : 'max-h-0'}`}>
                 
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu3_1")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu3_1")}</div>
               </div>
             </div>
             <div>
@@ -112,10 +112,10 @@ function Sidebar({
                 <ChevronDownIcon className={`w-4 h-4 transition-transform ${isOpen4 ? 'transform rotate-180' : ''}`} />
                 <span className="text-medium flex-grow ml-2 font-bold">{t("menu4")}</span>
               </button>
-              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen4 ? 'max-h-40 py-2' : 'max-h-0'}`}>
+              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen4 ? 'max-h-40 ' : 'max-h-0'}`}>
 
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu4_1")}</div>
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu4_2")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu4_1")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu4_2")}</div>
               </div>
             </div>
             <div>
@@ -126,12 +126,12 @@ function Sidebar({
                   <ChevronDownIcon className={`w-4 h-4 transition-transform ${isOpen1 ? 'transform rotate-180' : ''}`} />
                 <span className="text-medium flex-grow ml-2 font-bold">{t("menu5")}</span>
               </button>
-              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen5 ? 'max-h-40 py-2' : 'max-h-0'}`}>
+              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen5 ? 'max-h-40 ' : 'max-h-0'}`}>
                 
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu5_1")}</div>
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu5_2")}</div>
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu5_3")}</div>
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu5_4")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu5_1")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu5_2")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu5_3")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu5_4")}</div>
               </div>
             </div>
             <div>
@@ -142,11 +142,11 @@ function Sidebar({
                   <ChevronDownIcon className={`w-4 h-4 transition-transform ${isOpen6 ? 'transform rotate-180' : ''}`} />
                 <span className="text-medium flex-grow ml-2 font-bold">{t("menu6")}</span>
               </button>
-              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen6 ? 'max-h-40 py-2' : 'max-h-0'}`}>
+              <div className={`pl-4 space-y-4 overflow-hidden transition-all ${isOpen6 ? 'max-h-40 ' : 'max-h-0'}`}>
                 
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu6_1")}</div>
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu6_2")}</div>
-                <div className="px-8 h-10 hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu6_3")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu6_1")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu6_2")}</div>
+                <div className="px-8 h-10 hover:text-[#1448CC] hover:bg-[#E0ECFF] rounded-lg flex items-center">{t("menu6_3")}</div>
               </div>
             </div>
             
